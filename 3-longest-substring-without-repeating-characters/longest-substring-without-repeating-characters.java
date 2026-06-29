@@ -52,10 +52,10 @@ while(r<n){
         l++;
     }else{
         set.add(s.charAt(r));
+    ln=Math.max(r-l+1,ln);
         r++;
 
     }
-    ln=Math.max(r-l,ln);
 }
 
 
